@@ -1,0 +1,84 @@
+.mainContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.bookshopImg {
+  height: 30rem;
+  width: 30rem;
+  z-index: 1;
+}
+
+.leftContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.rightContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.rightText {
+  width: 70%;
+}
+.heroText {
+  font-weight: 800;
+  font-size: 3rem;
+  color: #455a64;
+}
+.heroPara {
+  color: gray;
+  font-size: 20px;
+}
+.searchBar {
+    width: 17.5rem;
+    height: 2.5rem;
+    border-radius: 5px;
+}
+
+.searchBar::placeholder {
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .mainContainer {
+    flex-direction: column;
+  }
+
+  .bookshopImg {
+    height: auto;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .leftContainer,
+  .rightContainer {
+    width: 100%;
+  }
+
+  .rightText {
+    width: 100%;
+    text-align: center;
+  }
+
+  .heroText {
+    font-size: 2rem;
+  }
+
+  .heroPara {
+    font-size: 16px;
+  }
+
+  .searchBar {
+    width: 80%;
+    max-width: 20rem;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,42 @@
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #001524;
+  height: 10vh;
+  z-index: 2;
+}
+
+.appName {
+  align-self: center;
+  margin-left: 5rem;
+  color: whitesmoke;
+}
+.appLogo {
+  font-size: 1.8rem;
+  margin-top: -0.8rem;
+  color: whitesmoke;
+}
+.cartLogo {
+  align-self: center;
+  margin-right: 5rem;
+  font-size: 1.8rem;
+  color: whitesmoke;
+}
+
+@media (max-width: 480px) {
+  .navBar {
+    /* justify-content: center;
+    padding: 0 1rem; */
+    padding: 0 1rem;
+  }
+
+  .appName {
+    margin-left: 0;
+    font-size: 1.2rem;
+  }
+
+  .cartLogo {
+    margin-right: 0;
+  }
+}
