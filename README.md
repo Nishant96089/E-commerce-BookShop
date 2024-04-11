@@ -1,3 +1,5 @@
+Live Link - https://e-commercebookshop.netlify.app/
+
 BookShop
 BookShop is a simple e-commerce application where users can browse and purchase books. It is built with React.js and utilizes CSS Modules for styling.
 
